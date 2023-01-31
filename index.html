@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+        * {
+            font-family: 'Michroma', sans-serif;
+        }
+        #gameArea {
+            margin-top: 100px;
+        }
+        #titleName {
+            margin: 0 auto;
+            width: 600px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: xx-large;
+        }
+        #score-container {
+            margin: 0 auto;
+            width: 600px;
+        }
+        #game-container {
+            margin: 0 auto;
+            border: 1px solid;
+            border-radius: 10px;
+            width: 600px;
+            height: 300px;
+        }
+        #button-container {
+            margin: 0 auto;
+            width: 600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            width: 100px;
+            height: 50px;
+            margin: 5px;
+            font-size: medium;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="gameArea">
+        <div id="titleName">
+            <span>Jumping Dinosaur</span> 
+        </div>
+    
+        <div id="game-container">
+            <canvas id="canvas"></canvas>
+        </div>
+        <br>
+        <div id="button-container">
+            <button id="startButton">Start</button>
+            <button id="retryButton" disabled >Retry</button>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
