@@ -12,7 +12,6 @@ defImg.src = './img/title.png'
 defImg.addEventListener('load', function(){
     ctx.drawImage(defImg, 165, 0, 265, 250);
 })
-// ctx.font = "14px 'Michroma', sans-serif"; // 🔸 새로고침 해야만 폰트가 적용되는 에러
 ctx.font = "20px sans-serif";
 ctx.fillText("- Press start button to start -", 180, 275)
 
