@@ -104,12 +104,6 @@ var scoreCount = 0;
 // ✅ Framework ✅
 function frameWork(){
 
-    // 프레임 일정하게 => 오류
-    // var fps = 15;
-    // animation = setInterval(function(){
-    //     requestAnimationFrame(frameWork)
-    // }, 1000 / fps)
-
     animation = requestAnimationFrame(frameWork)
     timer++;
     if(timer %10 == 0){
